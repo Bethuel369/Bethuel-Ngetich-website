@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethuel Ngetich Website</title>
+    <link rel="stylesheet" href="draw.css">
+  <script src="https://kit.fontawesome.com/5a164b42d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="myPhotos/ggs2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Scientist</p>
+                <h1>Hi, I'm <span>Bethuel</span><br>Ngetich From Kenya</h1>
+            </div>
+        </div>
+    </div>
+  <!----------------ABOUT----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myPhotos/1000144443.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm all about pushing yourself beyond percived boundaries and finding your best self. Currently I am 2nd year student in Kenyatta University pursuing Bachelors in Mathematics and Computer Science</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Science</span><br>I am a training data scientist, passionate about using data guide decion making.<br>Modeling is another area that I'm enthusiatic about.</li>
+                            <li><span>Web Development</span><br>I do small web development projects mostly personal websites</li>
+                            <li><span>Content creation</span><br>I record and edit videos for content on tiktok or youtube i can also help in coming up with ideas for the content</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Agrimwendo (August 2025- November 2025)</span><br>Voluntered at Agrimwendo Limited to develop a data collection app.</li>
+                        </ul>
+                    </div><div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-Current</span><br>Bsc Mathematics and Computer Science - Kenyatta University</li>
+                            <li><span>2025-Current</span><br>Data Science Labs - WorldQuant University</li>
+                            <li><span>2026-Current</span><br>Associate Data Science in Python - Data Camp</li>
+                            <li><span>2024-2025</span><br>Web Development - PowerLearn Project</li>
+                        </ul>
+                    </div>
+            </div> 
+        </div>
+
+
+    </div>
+
+
+<!-----------SERVICES--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Handling</h2>
+                <p>Want your data to make sense? I can take it through various processes to do so. From cleaning it, to making visualizations and even constructing models with it.</p>
+                <a href="#">Learn more</a>
+            </div>
+               <div>
+                <i class="fa-solid fa-photo-film"></i>
+                <h2>Video Editing</h2>
+                <p>Lets make fun and exciting videos that will shurely drive engagement in your social media platforms. </p>
+                <a href="#">Learn more</a>
+            </div>
+               <div>
+                <i class="fa-solid fa-ranking-star"></i>
+                <h2>Leadership</h2>
+                <p>To me leaadership is not just about a public figure in power,but its about: a helping hand, a hearing ear its about someone who put others before themselves.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------Portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="myPhotos/pexels-n-voitkevich-6120169.jpg" alt="">
+                <div class="layer">
+                    <h3>Data Analysis</h3>
+                    <p>TBC</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+
+                </div>
+            </div>
+               <div class="work">
+                <img src="myPhotos/pexels-juanico-11553189.jpg" alt="">
+                 <div class="layer">
+                    <h3>Video Editing</h3>
+                    <p>TBC</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+
+                </div>
+            </div>   <div class="work">
+                <img src="myPhotos/pexels-tima-miroshnichenko-6913224.jpg" alt="">
+                 <div class="layer">
+                    <h3>Leadership</h3>
+                    <p>TBC</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <a href="#"  class="btn">See more</a>
+    </div>
+</div>
+<!-----------Contacts-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ngetichbethuel100@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0724225760</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/bethuel-ngetich-b9a1a42b3/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/bethu.says.walahi/"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></i></a>
+                
+                </div>
+                <a href="myPhotos/Bethuel Ngetich CV.pdf" class="btn btn2 I hope this message finds you well.
+
+My name is Bethuel Ngetich, an international student from Kenya. I am writing to kindly request consideration for an enrollment fee waiver..
+
+At the moment, I am unable to pay the enrollment fee due to financial constraints. I have been awarded the IMG Student Journey Scholarship, which will cover my expenses; however, the funds will be disbursed after the enrollment fee payment deadline.
+
+I am very eager to join Temple University and fully commit to my studies. I would greatly appreciate any consideration or flexibility you could offer regarding this matter.
+
+Thank you very much for your time and understanding.
+
+Kind regards,
+Bethuel Ngetich
+
+Applicant ID: 617293855">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact">
+                    <input type="hidden" name="access_key" value="9f8241dd-402c-4483-aafe-8be360de9f57">
+                    <input type="text" name="Name" placeholder="Your Name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" class="contact-inputs" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+      
+        <p>"Sucess is not final, failure is not fatal: it is the courage to continue that counts"<br>~ Winston Churchill</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+
+    }
+</script>
+<script>
+
+var sidemenu= document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+
+
+</script>
+
+</body>
+</html>
